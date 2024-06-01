@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.socials{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+}
+.socials img{
+   max-width: 80px;
+}
+.contenier{
+  width: 1300px;
+  height: 550px;
+  background-color: rgb(118, 198, 201);
+  margin-left: 40px;
+}
+.a a{
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+  font-style: italic;
+  
+}
+.a{
+  text-align: center;
+  padding-top: 10px;
+}
+.flex{
+ display: flex;
+ justify-content: flex-end;
+ gap: 20px;
+}
+.content{
+  margin-top: 150px;
+}
+button{
+  padding: 10px;
+  border-radius: 20px;
+}
+.content h1{
+  padding-bottom: 20px;
+  font: 2em sans-serif;
+  color: white;
+}
+.content p{
+  font: 15px sans-serif;
+  color: white;
+  padding-bottom: 20px;
+}
+.flex img{
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.product{
+  margin-top: 150px;
+  text-align: center;
+  font: 1em sans-serif;
+  color: rgb(107, 183, 185);
+  font-style: italic;
+}
+.card{
+  background-color: rgb(88, 151, 153);
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: white;
+}
+.card img{
+  max-width: 200px;
+}
+.three-content{
+    display: flex;
+    justify-content: center;
+}
+.card-title{
+  padding: 10px 10px;
+  font-style: italic;
+  font: 12px sans-serif;
+}
